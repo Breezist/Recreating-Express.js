@@ -1,0 +1,32 @@
+[stdout] httpServer.js
+[stdout] ▶ server creation
+  ✔ should create a server instance (0.8611ms)
+  ✔ should initialize core properties (0.1345ms)
+✔ server creation (1.669ms)
+▶ http
+  ✔ should match GET routes (0.9749ms)
+  ✔ should extract route params (0.7609ms)
+  ✔ should run middlewares in order (0.4029ms)
+✔ http (2.3287ms)
+▶ subdomains
+  ✔ should match subdomain GET routes (0.3602ms)
+  ✔ should not match subdomain routes on main domain (0.3136ms)
+  ✔ should fall back to normal routes when subdomain route not found (0.2408ms)
+✔ subdomains (1.1171ms)
+▶ websockets
+  ✔ should broadcast messages to all websockets (0.3749ms)
+✔ websockets (0.5047ms)
+▶ server listening
+  ✔ should listen on a port (1.5289ms)
+✔ server listening (1.6019ms)
+[stdout] ▶ response time
+  ✔ should measure total test time (22.7945ms)
+✔ response time (22.9139ms)
+[stdout] ℹ tests 11
+ℹ suites 6
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 34.8855

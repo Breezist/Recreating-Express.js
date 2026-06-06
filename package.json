@@ -1,0 +1,21 @@
+{
+  "name": "recreating-expressjs",
+  "version": "1.0.0",
+  "description": "A small project where I create my own framework similar to that of Express.js",
+  "license": "ISC",
+  "author": "Breezist",
+  "type": "module",
+  "main": "index.js",
+  "repository": "https://github.com/Breezist/Recreating-Express.js",
+  "scripts": {
+    "test": "node http/testing/index.js",
+    "start": "node index.js"
+  },
+  "imports": {
+    "#": "./",
+    "#http/*.js": "./http/*.js",
+    "#util/*.js": "./http/utils/*.js",
+    "#core/*.js": "./http/core/*.js",
+    "#tests/*.js": "./http/testing/tests/*.js"
+  }
+}
